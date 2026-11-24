@@ -15333,8 +15333,8 @@
         "original_name": "갈은 돼지고기",
         "amount": "150g",
         "section": "주재료",
-        "canonical_name": "갈은돼지고기",
-        "mapping_type": "spacing"
+        "canonical_name": "돼지고기",
+        "mapping_type": "preparation"
       },
       {
         "original_name": "당근",
@@ -47118,8 +47118,8 @@
         "original_name": "가쯔오부시",
         "amount": "5g",
         "section": "주재료",
-        "canonical_name": "가쯔오부시",
-        "mapping_type": "unchanged"
+        "canonical_name": "가다랑어포",
+        "mapping_type": "synonym"
       }
     ]
   },
@@ -58218,7 +58218,7 @@
         "original_name": "후추가루",
         "amount": "0.5g",
         "section": "주재료",
-        "canonical_name": "후춧가루",
+        "canonical_name": "후추",
         "mapping_type": "spelling"
       },
       {
@@ -58430,8 +58430,8 @@
         "original_name": "건로즈메리",
         "amount": "2g",
         "section": "주재료",
-        "canonical_name": "건로즈메리",
-        "mapping_type": "unchanged"
+        "canonical_name": "건로즈마리",
+        "mapping_type": "spelling"
       },
       {
         "original_name": "찹쌀가루",
@@ -96506,8 +96506,8 @@
         "original_name": "계란노른자",
         "amount": "5g",
         "section": "주재료",
-        "canonical_name": "계란노른자",
-        "mapping_type": "unchanged"
+        "canonical_name": "달걀노른자",
+        "mapping_type": "synonym"
       }
     ]
   },
@@ -96649,8 +96649,8 @@
         "original_name": "가츠오부시",
         "amount": "10g",
         "section": "주재료",
-        "canonical_name": "가츠오부시",
-        "mapping_type": "unchanged"
+        "canonical_name": "가다랑어포",
+        "mapping_type": "synonym"
       },
       {
         "original_name": "다시마",
@@ -96713,8 +96713,8 @@
         "original_name": "계란노른자",
         "amount": "25g",
         "section": "주재료",
-        "canonical_name": "계란노른자",
-        "mapping_type": "unchanged"
+        "canonical_name": "달걀노른자",
+        "mapping_type": "synonym"
       },
       {
         "original_name": "밀가루",
