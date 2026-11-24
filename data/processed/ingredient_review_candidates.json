@@ -1,0 +1,1202 @@
+[
+  {
+    "original_name": "참기름",
+    "recipe_count": 194,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "밀가루",
+    "recipe_count": 113,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염간장",
+    "recipe_count": 102,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "고춧가루",
+    "recipe_count": 101,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "레몬즙",
+    "recipe_count": 86,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "찹쌀가루",
+    "recipe_count": 49,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "빵가루",
+    "recipe_count": 40,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "녹말가루",
+    "recipe_count": 33,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "카레가루",
+    "recipe_count": 31,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파슬리가루",
+    "recipe_count": 29,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "생강즙",
+    "recipe_count": 26,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "육수",
+    "recipe_count": 26,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "튀김기름",
+    "recipe_count": 25,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "들기름",
+    "recipe_count": 23,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "닭육수",
+    "recipe_count": 21,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "청경채",
+    "recipe_count": 21,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "들깻가루",
+    "recipe_count": 19,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "굴소스",
+    "recipe_count": 16,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "달걀흰자",
+    "recipe_count": 16,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건새우",
+    "recipe_count": 15,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "계피가루",
+    "recipe_count": 15,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염된장",
+    "recipe_count": 15,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "튀김가루",
+    "recipe_count": 15,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "들깨가루",
+    "recipe_count": 14,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건다시마",
+    "recipe_count": 13,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건포도",
+    "recipe_count": 13,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "어린잎채소",
+    "recipe_count": 13,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "강황가루",
+    "recipe_count": 12,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "마늘기름",
+    "recipe_count": 12,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "아몬드가루",
+    "recipe_count": 12,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "고추기름",
+    "recipe_count": 11,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "콩가루",
+    "recipe_count": 11,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "달걀노른자",
+    "recipe_count": 10,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "쌀가루",
+    "recipe_count": 10,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건표고버섯",
+    "recipe_count": 9,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "무염버터",
+    "recipe_count": 9,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "콩기름",
+    "recipe_count": 9,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "토마토소스",
+    "recipe_count": 9,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "겨자가루",
+    "recipe_count": 8,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "새싹채소",
+    "recipe_count": 8,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파슬리다진것",
+    "recipe_count": 8,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "미숫가루",
+    "recipe_count": 7,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "발사믹소스",
+    "recipe_count": 7,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "부침가루",
+    "recipe_count": 7,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파프리카가루",
+    "recipe_count": 7,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "흰후춧가루",
+    "recipe_count": 7,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건미역",
+    "recipe_count": 6,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "백년초가루",
+    "recipe_count": 6,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "적채",
+    "recipe_count": 6,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "칠리소스",
+    "recipe_count": 6,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "날콩가루",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "다시마국물",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "당근다진것",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "바질가루",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "배즙",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "생강가루",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염소금",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "청국장가루",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "통밀가루",
+    "recipe_count": 5,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건고추",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "녹차가루",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "다진청고추",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "마늘가루",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "식물성기름",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "양파즙",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염치즈",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "청고추다진것",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "치자가루",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "치즈가루",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "함초가루",
+    "recipe_count": 4,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건멸치",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "다시마육수",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "라임즙",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "마늘오일",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "메밀가루",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "멸치육수",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "베이비채소",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "사골육수",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "사과즙",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "쑥가루",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "우리밀가루",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염국간장",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염버터",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "전분가루",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "청피망다진것",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "표고버섯가루",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "해물육수",
+    "recipe_count": 3,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "가루녹차",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "거피들깨가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건목이버섯",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건조미역줄기",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건크랜베리",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "겨잣가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "계란노른자",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "기름",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "김가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "단호박가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "돼지고기다진것",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "멥쌀가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "바질다진것",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "백후춧가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "북어채",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "뽕잎가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "새우가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "샐러리다진것",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "스리라차소스",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "스파게티면(건면)",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "시금치가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "야채육수",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "양파가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "오레가노가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "잣가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염베이컨",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "치킨육수",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "코코넛오일",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "크림소스",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "타임다진것",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "호박가루",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "홍고추다진것",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "홍피망다진것",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "황태채",
+    "recipe_count": 2,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "감자녹말가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "감태가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "강력밀가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건곤드레",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건곤드레나물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건당면",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건대추",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건도토리묵",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건두부",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건로즈마리",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건로즈메리",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건무화과",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건바질",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건블루베리",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건오징어",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건조다시마",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건조미역",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건조체리",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건조토마토",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건청양고추",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건취나물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건타임",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건함초",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "건홍고추",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "검은콩가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "고운고춧가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "고추가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "깐들깨가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "넛맥가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "노른자",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "누룽지가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "다시마가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "다진당근",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "다진애호박",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "다진쪽파",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "닭뼈육수",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "당근채썬것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "대왕오징어채",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "대추채",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "대파채친것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "덧밀가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "데리야키소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "도토리가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "돈가스소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "동치미국물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "돼지감자가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "돼지목살다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "땅콩가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "땅콩기름",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "땅콩다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "레시틴가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "로즈마리다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "로즈마리마다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "마늘즙",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "말린오미자",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "매운고춧가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "머스터드소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "메주가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "멸치다시마육수",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "물김치국물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "물밤다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "밀가루박력분",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "밀가루중력분",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "백련초가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "버섯가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "보릿가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "브로컬리다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "비트가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "살사소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "새우다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "새우살다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "새우젓국물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "생들기름",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "생선육수",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "석류즙",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "셀러리다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "쇠고기육수",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "실파다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "쌈채",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "야채국물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "양고기(부채살",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "어린채소",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "엿기름",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "오레가노다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "오렌지즙",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "오릴브오일",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "옥수수가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "옥수수가루플렌타가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "올ㄹ브오일",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "우스터소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "울금가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "잔새우살다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염살라미",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "저염진간장",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "진미채",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "채소국물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "청·홍고추다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "카스텔라가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "커리가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "코리앤더가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "콩국물",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "클로렐라가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "키위소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파마산가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파마산치즈가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파스리가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파슬리말린것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "파채",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "피망채친것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "피쉬소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "한천가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "할라피뇨다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "햄다진것",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "허니머스터드소스",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "허브가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "현미가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "현미쌀가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "호밀가루",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  },
+  {
+    "original_name": "황태(채)",
+    "recipe_count": 1,
+    "note": "가공품/손질/수식어 여부 검토 (자동 병합하지 않음)"
+  }
+]
