@@ -76,7 +76,8 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
 
     - 재료명 존재 여부만 비교한다. 실제 보유 수량은 계산하지 않는다.
     - 같은 재료가 한 레시피에 여러 번 나와도 일치율은 한 번만 센다.
-    - 보유한 재료가 하나도 일치하지 않는 레시피는 결과에서 제외한다.
+    - 정확히 일치하거나 입력 이름이 포함된 DB 재료를 사용하는 레시피를 찾는다.
+    - 부분 일치 재료는 실제 보유로 표기하지 않고 별도 표시한다.
     - category가 지정되면 해당 요리 종류만 추천한다.
     """
     names = normalize_user_ingredients(my_ingredients)
@@ -85,21 +86,38 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
     if not isinstance(limit, int) or not 1 <= limit <= 100:
         raise ValueError('limit은 1~100 사이의 정수여야 합니다.')
 
-    # 사용자 입력 개수만큼 SQL 바인딩 기호(%s)를 만든다.
-    # 입력값은 SQL 문자열에 직접 붙이지 않고 매개변수로 전달한다.
-    placeholders = ', '.join(['%s'] * len(names))
+    # DB 데이터는 변경하지 않고 SQL LIKE로만 검색 범위를 넓힌다.
+    # 예: '간장' 입력 → '진간장', '저염간장'도 검색 후보에 포함된다.
+    # LIKE의 %, _, \ 문자가 검색 패턴으로 해석되지 않도록 이스케이프한다.
+    def escape_like(value):
+        return value.replace('\\', '\\\\').replace('%', '\\%').replace('_', '\\_')
 
-    # '전체' 또는 None이면 모든 종류를 검색하고, 그 외에는 선택한 분류만 조회한다.
+    like_patterns = [f"%{escape_like(name)}%" for name in names]
+
+    # 정확 일치는 1점, 이름에 입력한 단어가 포함된 부분 일치는 0.5점.
+    # 정확 일치 재료가 부분 일치에도 중복 집계되지 않게 NOT IN 조건을 둔다.
+    exact_placeholders = ', '.join(['%s'] * len(names))
+    like_conditions = ' OR '.join(['i.canonical_name LIKE %s'] * len(like_patterns))
+    related_expression = f"""
+        SUM(CASE
+            WHEN i.canonical_name NOT IN ({exact_placeholders})
+             AND ({like_conditions})
+            THEN 1 ELSE 0
+        END)
+    """
+
     selected_category = None if category in (None, '', '전체') else category
     category_condition = 'WHERE r.category = %s' if selected_category else ''
 
-    # 레시피 안의 중복 재료를 제거한 뒤, 보유 재료 일치율을 계산한다.
+    # 동일 레시피에서 같은 식재료는 한 번만 세도록 DISTINCT 적용
+    # 부분 일치 재료를 실제로 '보유'한 것으로 간주하지 않는 것이 핵심이다.
     score_sql = f'''
         SELECT
             r.recipe_id,
             r.recipe_name,
             COUNT(*) AS total_count,
-            SUM(CASE WHEN i.canonical_name IN ({placeholders}) THEN 1 ELSE 0 END) AS matched_count
+            SUM(CASE WHEN i.canonical_name IN ({exact_placeholders}) THEN 1 ELSE 0 END) AS exact_count,
+            {related_expression} AS related_count
         FROM (
             SELECT DISTINCT recipe_id, ingredient_id
             FROM recipe_ingredients
@@ -108,10 +126,11 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
         JOIN ingredients AS i ON i.ingredient_id = req.ingredient_id
         {category_condition}
         GROUP BY r.recipe_id, r.recipe_name
-        HAVING matched_count > 0
+        HAVING exact_count + related_count > 0
         ORDER BY
-            matched_count / total_count DESC,
-            matched_count DESC,
+            (exact_count + related_count * 0.5) / total_count DESC,
+            exact_count DESC,
+            related_count DESC,
             total_count ASC,
             r.recipe_id ASC
         LIMIT %s
@@ -120,8 +139,11 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
     conn = get_connection()
     cursor = conn.cursor(dictionary=True)
     try:
-        score_params = (*names, selected_category, limit) if selected_category else (*names, limit)
-        cursor.execute(score_sql, score_params)
+        score_params = list(names) + list(names) + like_patterns
+        if selected_category:
+            score_params.append(selected_category)
+        score_params.append(limit)
+        cursor.execute(score_sql, tuple(score_params))
         scores = cursor.fetchall()
         if not scores:
             return []
@@ -149,20 +171,28 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
         conn.close()
 
     owned = set(names)
+    # 문자열 부분 일치 여부는 Python 상세 목록에서도 SQL과 동일하게 판정한다.
+    def is_partial_match(canonical):
+        return any(name in canonical for name in names)
     recipes = {}
 
     for row in scores:
         recipe_id = row['recipe_id']
         total = int(row['total_count'])
-        matched = int(row['matched_count'])
+        exact = int(row['exact_count'])
+        similar = int(row['related_count'])
+        matched = exact + similar
         recipes[recipe_id] = {
             'recipe_id': recipe_id,
             'recipe_name': row['recipe_name'],
             'total_count': total,
-            'matched_count': matched,
+            'matched_count': matched,  # 검색에 일치한 수(정확+유사)
+            'exact_count': exact,  # 실제 보유한 수
+            'related_count': similar,  # 부분 일치로만 찾은 재료 수
             'missing_count': total - matched,
-            'match_rate': round(matched / total * 100, 1),
+            'match_rate': round((exact + similar * 0.5) / total * 100, 1),
             'matched_ingredients': [],
+            'related_ingredients': [],
             'missing_ingredients': [],
             'ingredient_details': [],
         }
@@ -173,16 +203,17 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
         recipe_id = ing['recipe_id']
         canonical = ing['canonical_name']
         is_owned = canonical in owned
+        is_related = not is_owned and is_partial_match(canonical)
         recipes[recipe_id]['ingredient_details'].append({
             'canonical_name': canonical,
             'original_name': ing['original_name'],
             'amount': ing['amount'],
             'section': ing['section'],
-            'status': '보유' if is_owned else '부족',
+            'status': '보유' if is_owned else ('유사' if is_related else '부족'),
         })
 
         if canonical not in seen_by_recipe[recipe_id]:
-            key = 'matched_ingredients' if is_owned else 'missing_ingredients'
+            key = 'matched_ingredients' if is_owned else ('related_ingredients' if is_related else 'missing_ingredients')
             recipes[recipe_id][key].append(canonical)
             seen_by_recipe[recipe_id].add(canonical)
 
@@ -201,5 +232,6 @@ if __name__ == '__main__':
 
     for index, recipe in enumerate(results, start=1):
         print(f"\n{index}. {recipe['recipe_name']} (일치율 {recipe['match_rate']}%)")
-        print(f"   보유 {recipe['matched_count']}/{recipe['total_count']}개: {', '.join(recipe['matched_ingredients'])}")
+        print(f"   보유 {recipe['exact_count']}/{recipe['total_count']}개: {', '.join(recipe['matched_ingredients'])}")
+        print(f"   부분 일치 {recipe['related_count']}개: {', '.join(recipe['related_ingredients'])}")
         print(f"   부족 {recipe['missing_count']}개: {', '.join(recipe['missing_ingredients'])}")
