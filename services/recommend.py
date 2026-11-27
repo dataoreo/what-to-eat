@@ -1,7 +1,7 @@
 """냉장고에 보유한 식재료로 레시피를 추천한다.
 
 프로젝트 루트에서 실행:
-    python services/recommend.py
+    python -m services.recommend
 
 사용 예시:
     from services.recommend import recommend_recipes
@@ -9,7 +9,6 @@
 """
 
 import os
-import sys
 from pathlib import Path
 
 import mysql.connector
@@ -19,8 +18,15 @@ from dotenv import load_dotenv
 # 프로젝트 폴더를 기준으로 .env와 표준화 코드를 찾는다.
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ENV_PATH = PROJECT_ROOT / '.env'
-sys.path.insert(0, str(PROJECT_ROOT / 'etl'))
-from normalize_ingredients import normalize  # noqa: E402
+from etl.normalize_ingredients import normalize
+
+
+# 부분 일치 검색에서만 제외할 가공품 목록
+SEARCH_EXCLUSIONS = {
+    '두부': {'두부면', '두부과자'},
+    '마늘': {'마늘기름', '마늘가루'},
+    '고추': {'고추장', '고추기름', '고춧가루'},
+}
 
 
 def normalize_user_ingredients(names):
@@ -92,16 +98,28 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
     def escape_like(value):
         return value.replace('\\', '\\\\').replace('%', '\\%').replace('_', '\\_')
 
-    like_patterns = [f"%{escape_like(name)}%" for name in names]
+    # 입력 재료마다 LIKE 조건과 제외 조건을 함께 생성한다.
+    # 제외 대상이어도 사용자가 그 이름을 정확히 입력한 경우에는 정상 매칭된다.
+    like_conditions = []
+    like_params = []
+    for name in names:
+        excluded = sorted(SEARCH_EXCLUSIONS.get(name, set()))
+        condition = 'i.canonical_name LIKE %s'
+        like_params.append(f'%{escape_like(name)}%')
+        if excluded:
+            placeholders = ', '.join(['%s'] * len(excluded))
+            condition += f' AND i.canonical_name NOT IN ({placeholders})'
+            like_params.extend(excluded)
+        like_conditions.append(f'({condition})')
 
     # 정확 일치는 1점, 이름에 입력한 단어가 포함된 부분 일치는 0.5점.
     # 정확 일치 재료가 부분 일치에도 중복 집계되지 않게 NOT IN 조건을 둔다.
     exact_placeholders = ', '.join(['%s'] * len(names))
-    like_conditions = ' OR '.join(['i.canonical_name LIKE %s'] * len(like_patterns))
+    related_conditions = ' OR '.join(like_conditions)
     related_expression = f"""
         SUM(CASE
             WHEN i.canonical_name NOT IN ({exact_placeholders})
-             AND ({like_conditions})
+             AND ({related_conditions})
             THEN 1 ELSE 0
         END)
     """
@@ -139,7 +157,7 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
     conn = get_connection()
     cursor = conn.cursor(dictionary=True)
     try:
-        score_params = list(names) + list(names) + like_patterns
+        score_params = list(names) + list(names) + like_params
         if selected_category:
             score_params.append(selected_category)
         score_params.append(limit)
@@ -173,7 +191,10 @@ def recommend_recipes(my_ingredients, limit=20, category=None):
     owned = set(names)
     # 문자열 부분 일치 여부는 Python 상세 목록에서도 SQL과 동일하게 판정한다.
     def is_partial_match(canonical):
-        return any(name in canonical for name in names)
+        return any(
+            name in canonical and canonical not in SEARCH_EXCLUSIONS.get(name, set())
+            for name in names
+        )
     recipes = {}
 
     for row in scores:

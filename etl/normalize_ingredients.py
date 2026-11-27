@@ -5,7 +5,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 # 식재료 표준화 규칙은 같은 폴더의 별도 파일에서 가져옴.
-from ingredient_aliases import ALIASES
+from etl.ingredient_aliases import ALIASES
 
 # 검토 후보 추출 단계에서 'unchanged' 재료명을 검토 후보 파일에 넣는 용도로 사용함.
 REVIEW_KEYWORDS = (
